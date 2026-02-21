@@ -2,14 +2,110 @@
 <opml version="2.0">
   <head>
     <title>Veille Anthropologique - EMBA UQAM</title>
-    <dateCreated>2026-02-20</dateCreated>
-    <ownerName>Veille Anthropologique</ownerName>
-    <docs>100 sources sélectionnées pour la veille anthropologique - transformations sociales, comportements humains, numérique et société</docs>
+    <dateCreated>2026-02-21</dateCreated>
+    <ownerName>Frederic - Desjardins / EMBA UQAM</ownerName>
+    <docs>Sources sélectionnées pour la veille anthropologique - transformations sociales, IA et société, modèle coopératif québécois, comportements humains et numérique</docs>
   </head>
   <body>
 
     <!-- ============================================================ -->
-    <!-- 1. PSYCHOLOGIE & COMPORTEMENTS HUMAINS (11 sources)          -->
+    <!-- 1. QUÉBEC : IA, ÉTHIQUE ET SOCIÉTÉ (NOUVEAU - 5 sources)    -->
+    <!-- Pertinence: CRITIQUE - contexte Desjardins / EMBA UQAM      -->
+    <!-- ============================================================ -->
+    <outline text="Québec — IA, Éthique et Société" title="Québec — IA, Éthique et Société">
+
+      <outline type="rss"
+        text="Mila - Institut québécois d'IA"
+        title="Mila Québec"
+        xmlUrl="https://mila.quebec/en/feed/"
+        htmlUrl="https://mila.quebec"
+        category="ethique_ia"
+        isPaywall="false"
+        pertinence="élevée"
+        raison="Institut de référence en IA responsable à Montréal — suivre les définitions québécoises de l'IA éthique et leurs impacts anthropologiques"/>
+
+      <outline type="rss"
+        text="Le Devoir — Intelligence artificielle"
+        title="Le Devoir IA"
+        xmlUrl="https://media1.ledevoir.com/rss/mot-cle/intelligence-artificielle.xml"
+        htmlUrl="https://www.ledevoir.com"
+        category="ethique_ia"
+        isPaywall="false"
+        pertinence="élevée"
+        raison="Couverture francophone québécoise de l'IA — discours sociétal, acceptabilité, impacts sur les travailleurs"/>
+
+      <outline type="rss"
+        text="Le Devoir — Desjardins"
+        title="Le Devoir Desjardins"
+        xmlUrl="https://media1.ledevoir.com/rss/mot-cle/desjardins.xml"
+        htmlUrl="https://www.ledevoir.com"
+        category="cooperatif"
+        isPaywall="false"
+        pertinence="élevée"
+        raison="Suivi du discours institutionnel Desjardins dans les médias — transformations du modèle coopératif et enjeux membres"/>
+
+      <outline type="rss"
+        text="Google News — Desjardins IA éthique"
+        title="Google News Desjardins IA"
+        xmlUrl="https://news.google.com/rss/search?q=Desjardins+intelligence+artificielle+%C3%A9thique&hl=fr&gl=CA&ceid=CA:fr"
+        htmlUrl="https://news.google.com"
+        category="cooperatif"
+        isPaywall="false"
+        pertinence="élevée"
+        raison="Agrégation automatique des mentions Desjardins + IA dans la presse canadienne"/>
+
+      <outline type="rss"
+        text="Google News — OBVIA IA Québec"
+        title="Google News OBVIA"
+        xmlUrl="https://news.google.com/rss/search?q=OBVIA+intelligence+artificielle+Qu%C3%A9bec&hl=fr&gl=CA&ceid=CA:fr"
+        htmlUrl="https://news.google.com"
+        category="ethique_ia"
+        isPaywall="false"
+        pertinence="élevée"
+        raison="Suivi des publications et prises de position de l'OBVIA sur l'impact sociétal de l'IA"/>
+
+    </outline>
+
+    <!-- ============================================================ -->
+    <!-- 2. MODÈLE COOPÉRATIF ET ÉCONOMIE SOCIALE (NOUVEAU - 3 sources) -->
+    <!-- Pertinence: CRITIQUE - coeur du contexte Desjardins          -->
+    <!-- ============================================================ -->
+    <outline text="Modèle Coopératif et Économie Sociale" title="Modèle Coopératif et Économie Sociale">
+
+      <outline type="rss"
+        text="Google News — Coopératives Québec"
+        title="Google News Coopératives"
+        xmlUrl="https://news.google.com/rss/search?q=coop%C3%A9rative+mutualiste+Qu%C3%A9bec&hl=fr&gl=CA&ceid=CA:fr"
+        htmlUrl="https://news.google.com"
+        category="cooperatif"
+        isPaywall="false"
+        pertinence="élevée"
+        raison="Suivi du mouvement coopératif québécois — gouvernance démocratique, valeurs mutualistes, tensions avec logique de marché"/>
+
+      <outline type="rss"
+        text="Google News — IRECUS coopératives recherche"
+        title="Google News IRECUS"
+        xmlUrl="https://news.google.com/rss/search?q=IRECUS+coop%C3%A9ratives+recherche&hl=fr&gl=CA&ceid=CA:fr"
+        htmlUrl="https://news.google.com"
+        category="cooperatif"
+        isPaywall="false"
+        pertinence="élevée"
+        raison="Publications et actualités de l'IRECUS — recherche académique sur la gouvernance coopérative"/>
+
+      <outline type="rss"
+        text="L'actualité — Économie et société"
+        title="L'actualité"
+        xmlUrl="https://lactualite.com/feed/"
+        htmlUrl="https://lactualite.com"
+        category="cooperatif"
+        isPaywall="false"
+        pertinence="élevée"
+        raison="Magazine québécois de référence — analyses société, économie coopérative, transformations sociales au Québec"/>
+
+    </outline>
+
+    <!-- ============================================================ -->
+    <!-- 3. PSYCHOLOGIE ET COMPORTEMENTS HUMAINS (11 sources)         -->
     <!-- Pertinence: Fondement de l'analyse anthropologique           -->
     <!-- ============================================================ -->
     <outline text="Psychologie et Comportements" title="Psychologie et Comportements">
@@ -42,7 +138,7 @@
         category="psychologie"
         isPaywall="false"
         pertinence="élevée"
-        raison="Agrégateur de recherches en psychologie sociale - directement lié aux dynamiques de groupe"/>
+        raison="Agrégateur de recherches en psychologie sociale — directement lié aux dynamiques de groupe"/>
 
       <outline type="rss"
         text="The Decision Lab"
@@ -55,7 +151,7 @@
         raison="Sciences comportementales appliquées, biais cognitifs, prise de décision collective"/>
 
       <outline type="rss"
-        text="Nautilus - Sciences et Société"
+        text="Nautilus"
         title="Nautilus"
         xmlUrl="https://nautil.us/rss/all"
         htmlUrl="https://nautil.us"
@@ -65,16 +161,6 @@
         raison="Exploration transdisciplinaire humain-science-culture, forte densité anthropologique"/>
 
       <outline type="rss"
-        text="Freakonomics"
-        title="Freakonomics"
-        xmlUrl="http://freakonomics.blogs.nytimes.com/feed/"
-        htmlUrl="https://freakonomics.com"
-        category="psychologie"
-        isPaywall="false"
-        pertinence="moyenne"
-        raison="Analyse des comportements humains par l'économie comportementale et la sociologie"/>
-
-      <outline type="rss"
         text="Neuroscience News"
         title="Neuroscience News"
         xmlUrl="http://neurosciencenews.com/feed/"
@@ -82,27 +168,7 @@
         category="neurosciences"
         isPaywall="false"
         pertinence="élevée"
-        raison="Recherches sur le cerveau social, empathie, comportements de groupe - base neurale des phénomènes culturels"/>
-
-      <outline type="rss"
-        text="Neuroscience News - ScienceDaily"
-        title="Neuroscience News ScienceDaily"
-        xmlUrl="https://sciencedaily.com/rss/mind_brain/neuroscience.xml"
-        htmlUrl="https://www.sciencedaily.com"
-        category="neurosciences"
-        isPaywall="false"
-        pertinence="moyenne"
-        raison="Actualités scientifiques sur cerveau et comportement"/>
-
-      <outline type="rss"
-        text="SharpBrains"
-        title="SharpBrains"
-        xmlUrl="http://www.sharpbrains.com/feed/"
-        htmlUrl="https://sharpbrains.com"
-        category="neurosciences"
-        isPaywall="false"
-        pertinence="moyenne"
-        raison="Neurosciences cognitives et implications sociales"/>
+        raison="Recherches sur le cerveau social, empathie, comportements de groupe"/>
 
       <outline type="rss"
         text="Ness Labs"
@@ -122,12 +188,42 @@
         category="psychologie"
         isPaywall="false"
         pertinence="élevée"
-        raison="Modèles mentaux, biais cognitifs et prise de décision - très utile pour l'analyse anthropologique"/>
+        raison="Modèles mentaux, biais cognitifs et prise de décision — très utile pour l'analyse anthropologique"/>
+
+      <outline type="rss"
+        text="Neuroscience News ScienceDaily"
+        title="Neuroscience ScienceDaily"
+        xmlUrl="https://sciencedaily.com/rss/mind_brain/neuroscience.xml"
+        htmlUrl="https://www.sciencedaily.com"
+        category="neurosciences"
+        isPaywall="false"
+        pertinence="moyenne"
+        raison="Actualités scientifiques sur cerveau et comportement"/>
+
+      <outline type="rss"
+        text="SharpBrains"
+        title="SharpBrains"
+        xmlUrl="http://www.sharpbrains.com/feed/"
+        htmlUrl="https://sharpbrains.com"
+        category="neurosciences"
+        isPaywall="false"
+        pertinence="moyenne"
+        raison="Neurosciences cognitives et implications sociales"/>
+
+      <outline type="rss"
+        text="Freakonomics"
+        title="Freakonomics"
+        xmlUrl="http://freakonomics.blogs.nytimes.com/feed/"
+        htmlUrl="https://freakonomics.com"
+        category="psychologie"
+        isPaywall="false"
+        pertinence="moyenne"
+        raison="Analyse des comportements humains par l'économie comportementale et la sociologie"/>
 
     </outline>
 
     <!-- ============================================================ -->
-    <!-- 2. SOCIÉTÉ, CULTURE ET TRANSFORMATIONS SOCIALES (12 sources) -->
+    <!-- 4. SOCIÉTÉ ET TRANSFORMATIONS SOCIALES (12 sources)          -->
     <!-- Pertinence: Coeur de la veille anthropologique               -->
     <!-- ============================================================ -->
     <outline text="Société et Transformations Sociales" title="Société et Transformations Sociales">
@@ -140,7 +236,77 @@
         category="societe"
         isPaywall="false"
         pertinence="élevée"
-        raison="Idées transformatrices sur la société, culture, futur humain - densité anthropologique très élevée"/>
+        raison="Idées transformatrices sur la société, culture, futur humain — densité anthropologique très élevée"/>
+
+      <outline type="rss"
+        text="The Conversation Social Sciences"
+        title="The Conversation Social Sciences"
+        xmlUrl="https://theconversation.com/ca/topics/social-sciences-335/articles.atom"
+        htmlUrl="https://theconversation.com"
+        category="academique-societe"
+        isPaywall="false"
+        pertinence="élevée"
+        raison="Articles académiques vulgarisés sur les sciences sociales — source primaire fiable"/>
+
+      <outline type="rss"
+        text="Hypothèses Sciences Humaines"
+        title="Hypothèses Sciences Humaines"
+        xmlUrl="https://hypotheses.org/feed"
+        htmlUrl="https://hypotheses.org"
+        category="academique"
+        isPaywall="false"
+        pertinence="élevée"
+        raison="Carnets de recherche académiques francophones en sciences humaines et sociales"/>
+
+      <outline type="rss"
+        text="Sciences Humaines Magazine"
+        title="Sciences Humaines Magazine"
+        xmlUrl="https://www.scienceshumaines.com/rss.xml"
+        htmlUrl="https://www.scienceshumaines.com"
+        category="academique"
+        isPaywall="false"
+        pertinence="élevée"
+        raison="Référence francophone en anthropologie, sociologie, psychologie sociale"/>
+
+      <outline type="rss"
+        text="Internet Actu"
+        title="Internet Actu"
+        xmlUrl="https://www.internetactu.net/feed/"
+        htmlUrl="https://www.internetactu.net"
+        category="societe-numerique"
+        isPaywall="false"
+        pertinence="élevée"
+        raison="Analyse critique des transformations numériques et leurs impacts sociaux et culturels"/>
+
+      <outline type="rss"
+        text="Socialter"
+        title="Socialter"
+        xmlUrl="https://www.socialter.fr/feed"
+        htmlUrl="https://www.socialter.fr"
+        category="societe"
+        isPaywall="false"
+        pertinence="élevée"
+        raison="Mutations sociales, économie alternative, nouveaux modes de vie — fort signal anthropologique"/>
+
+      <outline type="rss"
+        text="Singularity Hub"
+        title="Singularity Hub"
+        xmlUrl="https://singularityhub.com/feed/"
+        htmlUrl="https://singularityhub.com"
+        category="societe-futur"
+        isPaywall="false"
+        pertinence="élevée"
+        raison="Signaux faibles sur les transformations profondes de la société et de l'humain"/>
+
+      <outline type="rss"
+        text="MIT News STS"
+        title="MIT News STS"
+        xmlUrl="https://news.mit.edu/rss/topic/science-technology-and-society"
+        htmlUrl="https://news.mit.edu"
+        category="societe"
+        isPaywall="false"
+        pertinence="élevée"
+        raison="Recherches sur l'interaction technologie-société — utile pour veille anthropologique numérique"/>
 
       <outline type="rss"
         text="TED Talks Daily"
@@ -163,17 +329,7 @@
         raison="Sciences fondamentales avec implications sociales et philosophiques profondes"/>
 
       <outline type="rss"
-        text="MIT News - Science Technology and Society"
-        title="MIT News - STS"
-        xmlUrl="https://news.mit.edu/rss/topic/science-technology-and-society"
-        htmlUrl="https://news.mit.edu"
-        category="societe"
-        isPaywall="false"
-        pertinence="élevée"
-        raison="Recherches sur l'interaction technologie-société, directement utile pour veille anthropologique numérique"/>
-
-      <outline type="rss"
-        text="MIT News - Research"
+        text="MIT News Research"
         title="MIT News Research"
         xmlUrl="https://news.mit.edu/rss/research"
         htmlUrl="https://news.mit.edu"
@@ -192,70 +348,138 @@
         pertinence="moyenne"
         raison="Vulgarisation scientifique incluant comportements humains et société"/>
 
-      <outline type="rss"
-        text="Singularity Hub"
-        title="Singularity Hub"
-        xmlUrl="https://singularityhub.com/feed/"
-        htmlUrl="https://singularityhub.com"
-        category="societe-futur"
-        isPaywall="false"
-        pertinence="élevée"
-        raison="Signaux faibles sur les transformations profondes de la société et de l'humain"/>
+    </outline>
+
+    <!-- ============================================================ -->
+    <!-- 5. INTELLIGENCE ARTIFICIELLE ET SOCIÉTÉ (12 sources)         -->
+    <!-- Pertinence: IA = transformation anthropologique majeure      -->
+    <!-- ============================================================ -->
+    <outline text="Intelligence Artificielle et Société" title="Intelligence Artificielle et Société">
 
       <outline type="rss"
-        text="Internet Actu"
-        title="Internet Actu"
-        xmlUrl="https://www.internetactu.net/feed/"
-        htmlUrl="https://www.internetactu.net"
-        category="societe-numerique"
+        text="MIT News AI"
+        title="MIT News AI"
+        xmlUrl="http://news.mit.edu/rss/topic/artificial-intelligence2"
+        htmlUrl="https://news.mit.edu"
+        category="ia-societe"
         isPaywall="false"
         pertinence="élevée"
-        raison="Analyse critique des transformations numériques et leurs impacts sociaux et culturels"/>
+        raison="Recherches sur l'impact de l'IA sur les comportements humains et la société"/>
 
       <outline type="rss"
-        text="Socialter"
-        title="Socialter"
-        xmlUrl="https://www.socialter.fr/feed"
-        htmlUrl="https://www.socialter.fr"
-        category="societe"
+        text="The Gradient"
+        title="The Gradient"
+        xmlUrl="https://thegradient.pub/rss/"
+        htmlUrl="https://thegradient.pub"
+        category="ia"
         isPaywall="false"
         pertinence="élevée"
-        raison="Mutations sociales, économie alternative, nouveaux modes de vie - très fort signal anthropologique"/>
+        raison="Analyse critique et sociale de l'IA — perspective au-delà de la technique"/>
 
       <outline type="rss"
-        text="The Conversation - Social Sciences"
-        title="The Conversation Social Sciences"
-        xmlUrl="https://theconversation.com/ca/topics/social-sciences-335/articles.atom"
-        htmlUrl="https://theconversation.com"
-        category="academique-societe"
+        text="Unite AI"
+        title="Unite AI"
+        xmlUrl="https://www.unite.ai/feed/"
+        htmlUrl="https://www.unite.ai"
+        category="ia-societe"
         isPaywall="false"
         pertinence="élevée"
-        raison="Articles académiques vulgarisés sur les sciences sociales - source primaire fiable"/>
+        raison="Impact social et éthique de l'IA — signaux forts sur les transformations culturelles"/>
 
       <outline type="rss"
-        text="Hypothèses - Sciences Humaines"
-        title="Hypothèses Sciences Humaines"
-        xmlUrl="https://hypotheses.org/feed"
-        htmlUrl="https://hypotheses.org"
-        category="academique"
+        text="OpenAI"
+        title="OpenAI"
+        xmlUrl="https://openai.com/news/engineering/rss.xml"
+        htmlUrl="https://openai.com"
+        category="ia"
         isPaywall="false"
         pertinence="élevée"
-        raison="Carnets de recherche académiques francophones en sciences humaines et sociales"/>
+        raison="Signal fort sur les technologies qui transforment les comportements humains contemporains"/>
 
       <outline type="rss"
-        text="Sciences Humaines Magazine"
-        title="Sciences Humaines Magazine"
-        xmlUrl="https://www.scienceshumaines.com/rss.xml"
-        htmlUrl="https://www.scienceshumaines.com"
-        category="academique"
+        text="Google AI Blog"
+        title="Google AI Blog"
+        xmlUrl="http://googleresearch.blogspot.com/atom.xml"
+        htmlUrl="https://ai.googleblog.com"
+        category="ia"
         isPaywall="false"
-        pertinence="élevée"
-        raison="Référence francophone en anthropologie, sociologie, psychologie sociale"/>
+        pertinence="moyenne"
+        raison="Évolutions de l'IA qui redéfinissent les comportements et interactions humaines"/>
+
+      <outline type="rss"
+        text="DeepMind"
+        title="DeepMind"
+        xmlUrl="https://deepmind.com/blog/feed/basic/"
+        htmlUrl="https://deepmind.com"
+        category="ia"
+        isPaywall="false"
+        pertinence="moyenne"
+        raison="Recherches en IA avec implications sur les capacités et comportements humains"/>
+
+      <outline type="rss"
+        text="Amazon Science"
+        title="Amazon Science"
+        xmlUrl="https://www.amazon.science/index.rss"
+        htmlUrl="https://www.amazon.science"
+        category="ia-societe"
+        isPaywall="false"
+        pertinence="moyenne"
+        raison="Recherches sur les comportements de consommation et l'impact de l'IA sur les usages"/>
+
+      <outline type="rss"
+        text="Towards Data Science"
+        title="Towards Data Science"
+        xmlUrl="https://towardsdatascience.com/feed"
+        htmlUrl="https://towardsdatascience.com"
+        category="ia"
+        isPaywall="false"
+        pertinence="moyenne"
+        raison="Applications data science aux sciences sociales et comportementales"/>
+
+      <outline type="rss"
+        text="Reddit Machine Learning"
+        title="Reddit Machine Learning"
+        xmlUrl="http://www.reddit.com/r/MachineLearning/.rss"
+        htmlUrl="https://www.reddit.com/r/MachineLearning"
+        category="ia-communaute"
+        isPaywall="false"
+        pertinence="moyenne"
+        raison="Communauté mondiale discutant des implications sociales des avancées en IA"/>
+
+      <outline type="rss"
+        text="BAIR Blog"
+        title="BAIR Blog"
+        xmlUrl="http://bair.berkeley.edu/blog/feed.xml"
+        htmlUrl="https://bair.berkeley.edu/blog"
+        category="ia-academique"
+        isPaywall="false"
+        pertinence="moyenne"
+        raison="Recherches académiques sur l'IA avec implications comportementales"/>
+
+      <outline type="rss"
+        text="Lil Log"
+        title="Lil Log"
+        xmlUrl="https://lilianweng.github.io/lil-log/feed.xml"
+        htmlUrl="https://lilianweng.github.io"
+        category="ia"
+        isPaywall="false"
+        pertinence="moyenne"
+        raison="Analyse approfondie des modèles IA qui transforment l'interaction humaine"/>
+
+      <outline type="rss"
+        text="Nvidia Developer Blog"
+        title="Nvidia Developer Blog"
+        xmlUrl="https://developer.nvidia.com/blog/feed"
+        htmlUrl="https://developer.nvidia.com/blog"
+        category="ia-tech"
+        isPaywall="false"
+        pertinence="moyenne"
+        raison="Technologies émergentes redéfinissant les expériences humaines"/>
 
     </outline>
 
     <!-- ============================================================ -->
-    <!-- 3. TRAVAIL ET ORGANISATIONS (10 sources)                     -->
+    <!-- 6. TRAVAIL ET ORGANISATIONS (10 sources)                     -->
     <!-- Pertinence: Transformations du travail = sujet anthropo majeur-->
     <!-- ============================================================ -->
     <outline text="Travail et Organisations" title="Travail et Organisations">
@@ -269,16 +493,6 @@
         isPaywall="false"
         pertinence="élevée"
         raison="Transformations du management, culture organisationnelle, comportements au travail"/>
-
-      <outline type="rss"
-        text="HBR - Feed alternatif"
-        title="HBR org"
-        xmlUrl="http://feeds.harvardbusiness.org/harvardbusiness/"
-        htmlUrl="https://hbr.org"
-        category="travail"
-        isPaywall="false"
-        pertinence="élevée"
-        raison="Source de référence sur les organisations et comportements humains en entreprise"/>
 
       <outline type="rss"
         text="MIT Sloan Management Review"
@@ -301,7 +515,7 @@
         raison="Tendances travail, innovation sociale, nouvelles organisations et modes de vie professionnels"/>
 
       <outline type="rss"
-        text="Forbes - Leadership"
+        text="Forbes Leadership"
         title="Forbes Leadership"
         xmlUrl="https://www.forbes.com/leadership/feed/"
         htmlUrl="https://www.forbes.com"
@@ -311,7 +525,7 @@
         raison="Évolution du leadership et des cultures organisationnelles"/>
 
       <outline type="rss"
-        text="Irrational Exuberance - Will Larson"
+        text="Irrational Exuberance"
         title="Irrational Exuberance"
         xmlUrl="https://lethain.com/feeds/"
         htmlUrl="https://lethain.com"
@@ -363,135 +577,7 @@
     </outline>
 
     <!-- ============================================================ -->
-    <!-- 4. INTELLIGENCE ARTIFICIELLE ET SOCIÉTÉ (12 sources)         -->
-    <!-- Pertinence: IA = transformation anthropologique majeure      -->
-    <!-- ============================================================ -->
-    <outline text="Intelligence Artificielle et Société" title="Intelligence Artificielle et Société">
-
-      <outline type="rss"
-        text="MIT News - Artificial Intelligence"
-        title="MIT News AI"
-        xmlUrl="http://news.mit.edu/rss/topic/artificial-intelligence2"
-        htmlUrl="https://news.mit.edu"
-        category="ia-societe"
-        isPaywall="false"
-        pertinence="élevée"
-        raison="Recherches sur l'impact de l'IA sur les comportements humains et la société"/>
-
-      <outline type="rss"
-        text="The Gradient"
-        title="The Gradient"
-        xmlUrl="https://thegradient.pub/rss/"
-        htmlUrl="https://thegradient.pub"
-        category="ia"
-        isPaywall="false"
-        pertinence="élevée"
-        raison="Analyse critique et sociale de l'IA - perspective au-delà de la technique"/>
-
-      <outline type="rss"
-        text="Google AI Blog"
-        title="Google AI Blog"
-        xmlUrl="http://googleresearch.blogspot.com/atom.xml"
-        htmlUrl="https://ai.googleblog.com"
-        category="ia"
-        isPaywall="false"
-        pertinence="moyenne"
-        raison="Évolutions de l'IA qui redéfinissent les comportements et interactions humaines"/>
-
-      <outline type="rss"
-        text="OpenAI"
-        title="OpenAI"
-        xmlUrl="https://openai.com/news/engineering/rss.xml"
-        htmlUrl="https://openai.com"
-        category="ia"
-        isPaywall="false"
-        pertinence="élevée"
-        raison="Signal fort sur les technologies qui transforment les comportements humains contemporains"/>
-
-      <outline type="rss"
-        text="DeepMind"
-        title="DeepMind"
-        xmlUrl="https://deepmind.com/blog/feed/basic/"
-        htmlUrl="https://deepmind.com"
-        category="ia"
-        isPaywall="false"
-        pertinence="moyenne"
-        raison="Recherches en IA avec implications sur les capacités et comportements humains"/>
-
-      <outline type="rss"
-        text="Amazon Science"
-        title="Amazon Science"
-        xmlUrl="https://www.amazon.science/index.rss"
-        htmlUrl="https://www.amazon.science"
-        category="ia-societe"
-        isPaywall="false"
-        pertinence="moyenne"
-        raison="Recherches sur les comportements de consommation et l'impact de l'IA sur les usages"/>
-
-      <outline type="rss"
-        text="Towards Data Science"
-        title="Towards Data Science"
-        xmlUrl="https://towardsdatascience.com/feed"
-        htmlUrl="https://towardsdatascience.com"
-        category="ia"
-        isPaywall="false"
-        pertinence="moyenne"
-        raison="Applications data science aux sciences sociales et comportementales"/>
-
-      <outline type="rss"
-        text="Unite.AI"
-        title="Unite AI"
-        xmlUrl="https://www.unite.ai/feed/"
-        htmlUrl="https://www.unite.ai"
-        category="ia-societe"
-        isPaywall="false"
-        pertinence="élevée"
-        raison="Impact social et éthique de l'IA - signaux forts sur les transformations culturelles"/>
-
-      <outline type="rss"
-        text="Reddit - Machine Learning"
-        title="Reddit Machine Learning"
-        xmlUrl="http://www.reddit.com/r/MachineLearning/.rss"
-        htmlUrl="https://www.reddit.com/r/MachineLearning"
-        category="ia-communaute"
-        isPaywall="false"
-        pertinence="moyenne"
-        raison="Communauté mondiale discutant des implications sociales des avancées en IA"/>
-
-      <outline type="rss"
-        text="Berkeley AI Research Blog"
-        title="BAIR Blog"
-        xmlUrl="http://bair.berkeley.edu/blog/feed.xml"
-        htmlUrl="https://bair.berkeley.edu/blog"
-        category="ia-academique"
-        isPaywall="false"
-        pertinence="moyenne"
-        raison="Recherches académiques sur l'IA avec implications comportementales"/>
-
-      <outline type="rss"
-        text="Lil'Log - Lilian Weng"
-        title="Lil Log"
-        xmlUrl="https://lilianweng.github.io/lil-log/feed.xml"
-        htmlUrl="https://lilianweng.github.io"
-        category="ia"
-        isPaywall="false"
-        pertinence="moyenne"
-        raison="Analyse approfondie des modèles IA qui transforment l'interaction humaine"/>
-
-      <outline type="rss"
-        text="Nvidia Developer Blog"
-        title="Nvidia Developer Blog"
-        xmlUrl="https://developer.nvidia.com/blog/feed"
-        htmlUrl="https://developer.nvidia.com/blog"
-        category="ia-tech"
-        isPaywall="false"
-        pertinence="moyenne"
-        raison="Technologies émergentes redéfinissant les expériences humaines (VR, simulation, IA)"/>
-
-    </outline>
-
-    <!-- ============================================================ -->
-    <!-- 5. UX, DESIGN ET COMPORTEMENTS NUMÉRIQUES (10 sources)       -->
+    <!-- 7. UX, DESIGN ET COMPORTEMENTS NUMÉRIQUES (7 sources)        -->
     <!-- Pertinence: Design = étude des comportements en contexte numérique -->
     <!-- ============================================================ -->
     <outline text="UX Design et Comportements Numériques" title="UX Design et Comportements Numériques">
@@ -504,7 +590,7 @@
         category="ux-comportement"
         isPaywall="false"
         pertinence="élevée"
-        raison="Recherches empiriques sur les comportements humains en environnement numérique - données primaires"/>
+        raison="Recherches empiriques sur les comportements humains en environnement numérique — données primaires"/>
 
       <outline type="rss"
         text="UX Collective"
@@ -515,6 +601,26 @@
         isPaywall="false"
         pertinence="élevée"
         raison="Analyse des usages numériques, rituels digitaux et transformations comportementales"/>
+
+      <outline type="rss"
+        text="Signal Blog"
+        title="Signal Blog"
+        xmlUrl="https://signal.org/blog/rss.xml"
+        htmlUrl="https://signal.org/blog"
+        category="numerique-societe"
+        isPaywall="false"
+        pertinence="élevée"
+        raison="Enjeux de confidentialité, comportements de communication et rituels numériques"/>
+
+      <outline type="rss"
+        text="Airbnb Design"
+        title="Airbnb Design"
+        xmlUrl="http://airbnb.design/feed/"
+        htmlUrl="https://airbnb.design"
+        category="ux-culture"
+        isPaywall="false"
+        pertinence="élevée"
+        raison="Design thinking culturellement sensible, comportements de voyage et identités communautaires"/>
 
       <outline type="rss"
         text="UX Planet"
@@ -546,154 +652,74 @@
         pertinence="moyenne"
         raison="Évolution des pratiques numériques et usages des interfaces web"/>
 
+    </outline>
+
+    <!-- ============================================================ -->
+    <!-- 8. COMMUNAUTÉS ET RÉSEAUX SOCIAUX (5 sources)                -->
+    <!-- Pertinence: Nouvelles formes de tribalisme numérique         -->
+    <!-- ============================================================ -->
+    <outline text="Communautés et Réseaux Sociaux" title="Communautés et Réseaux Sociaux">
+
       <outline type="rss"
-        text="Airbnb Design"
-        title="Airbnb Design"
-        xmlUrl="http://airbnb.design/feed/"
-        htmlUrl="https://airbnb.design"
-        category="ux-culture"
+        text="Reddit Anthropology"
+        title="Reddit Anthropology"
+        xmlUrl="https://www.reddit.com/r/anthropology/.rss"
+        htmlUrl="https://www.reddit.com/r/anthropology"
+        category="communaute-academique"
         isPaywall="false"
         pertinence="élevée"
-        raison="Design thinking culturellement sensible, comportements de voyage et identités communautaires"/>
+        raison="Communauté mondiale de discussion en anthropologie — signaux directs du terrain"/>
 
       <outline type="rss"
-        text="Slack Design"
-        title="Slack Design"
-        xmlUrl="https://slack.design/feed/"
-        htmlUrl="https://slack.design"
-        category="ux-travail"
-        isPaywall="false"
-        pertinence="moyenne"
-        raison="Comportements de collaboration numérique et rituels de communication en équipe"/>
-
-      <outline type="rss"
-        text="UXmatters"
-        title="UXmatters"
-        xmlUrl="https://uxmatters.com/index.xml"
-        htmlUrl="https://uxmatters.com"
-        category="ux"
-        isPaywall="false"
-        pertinence="moyenne"
-        raison="Recherches sur les pratiques et comportements des utilisateurs numériques"/>
-
-      <outline type="rss"
-        text="Interaction Design Foundation"
-        title="Interaction Design Foundation"
-        xmlUrl="https://interaction-design.org/rss/site_news.xml"
-        htmlUrl="https://www.interaction-design.org"
-        category="ux-academique"
-        isPaywall="false"
-        pertinence="moyenne"
-        raison="Fondements théoriques du design centré humain avec base académique solide"/>
-
-      <outline type="rss"
-        text="Signal Blog"
-        title="Signal Blog"
-        xmlUrl="https://signal.org/blog/rss.xml"
-        htmlUrl="https://signal.org/blog"
-        category="numerique-societe"
+        text="Reddit Sociology"
+        title="Reddit Sociology"
+        xmlUrl="https://www.reddit.com/r/sociology/.rss"
+        htmlUrl="https://www.reddit.com/r/sociology"
+        category="communaute-academique"
         isPaywall="false"
         pertinence="élevée"
-        raison="Enjeux de confidentialité, comportements de communication et rituels numériques"/>
+        raison="Discussions sociologiques mondiales, tendances émergentes et signaux faibles"/>
+
+      <outline type="rss"
+        text="Reddit Futurology"
+        title="Reddit Futurology"
+        xmlUrl="https://www.reddit.com/r/Futurology/.rss"
+        htmlUrl="https://www.reddit.com/r/Futurology"
+        category="communaute-futur"
+        isPaywall="false"
+        pertinence="élevée"
+        raison="Signaux faibles sur les transformations sociales et comportementales émergentes"/>
+
+      <outline type="rss"
+        text="Hacker News Show HN"
+        title="Hacker News Show HN"
+        xmlUrl="http://hnrss.org/show"
+        htmlUrl="https://news.ycombinator.com/show"
+        category="communaute-innovation"
+        isPaywall="false"
+        pertinence="élevée"
+        raison="Innovations émergentes créées par la communauté — signaux faibles sur les nouveaux usages"/>
+
+      <outline type="rss"
+        text="Hacker News"
+        title="Hacker News"
+        xmlUrl="http://news.ycombinator.com/rss"
+        htmlUrl="https://news.ycombinator.com"
+        category="communaute-tech"
+        isPaywall="false"
+        pertinence="élevée"
+        raison="Communauté mondiale — signaux faibles émergents, débats sur technologie et société"/>
 
     </outline>
 
     <!-- ============================================================ -->
-    <!-- 6. APPRENTISSAGE ET COGNITION SOCIALE (8 sources)            -->
-    <!-- Pertinence: Transmission culturelle et évolution des savoirs -->
-    <!-- ============================================================ -->
-    <outline text="Apprentissage et Cognition Sociale" title="Apprentissage et Cognition Sociale">
-
-      <outline type="rss"
-        text="Commonplace - Commoncog"
-        title="Commonplace Commoncog"
-        xmlUrl="https://commoncog.com/blog/rss/"
-        htmlUrl="https://commoncog.com"
-        category="apprentissage"
-        isPaywall="false"
-        pertinence="élevée"
-        raison="Anthropologie de l'apprentissage, transmission du savoir et cognition experte"/>
-
-      <outline type="rss"
-        text="Scott H Young"
-        title="Scott H Young"
-        xmlUrl="https://feeds.feedburner.com/scotthyoung/HAHx"
-        htmlUrl="https://www.scotthyoung.com"
-        category="apprentissage"
-        isPaywall="false"
-        pertinence="moyenne"
-        raison="Évolution des pratiques d'apprentissage et transformation des modes de connaissance"/>
-
-      <outline type="rss"
-        text="ML@CMU Blog"
-        title="ML CMU Blog"
-        xmlUrl="https://blog.ml.cmu.edu/feed/"
-        htmlUrl="https://blog.ml.cmu.edu"
-        category="apprentissage-ia"
-        isPaywall="false"
-        pertinence="moyenne"
-        raison="Recherches sur l'apprentissage artificiel miroir de l'apprentissage humain"/>
-
-      <outline type="rss"
-        text="Jay Alammar"
-        title="Jay Alammar"
-        xmlUrl="https://jalammar.github.io/feed.xml"
-        htmlUrl="https://jalammar.github.io"
-        category="apprentissage-ia"
-        isPaywall="false"
-        pertinence="moyenne"
-        raison="Vulgarisation des modèles cognitifs artificiels, parallèles avec cognition humaine"/>
-
-      <outline type="rss"
-        text="Joel on Software"
-        title="Joel on Software"
-        xmlUrl="https://www.joelonsoftware.com/feed/"
-        htmlUrl="https://www.joelonsoftware.com"
-        category="apprentissage-travail"
-        isPaywall="false"
-        pertinence="moyenne"
-        raison="Réflexions profondes sur les cultures d'apprentissage et pratiques professionnelles"/>
-
-      <outline type="rss"
-        text="Dan Luu"
-        title="Dan Luu"
-        xmlUrl="https://danluu.com/atom.xml"
-        htmlUrl="https://danluu.com"
-        category="apprentissage"
-        isPaywall="false"
-        pertinence="moyenne"
-        raison="Analyses empiriques des pratiques et cultures dans les organisations tech"/>
-
-      <outline type="rss"
-        text="Julia Evans"
-        title="Julia Evans"
-        xmlUrl="https://jvns.ca/atom.xml"
-        htmlUrl="https://jvns.ca"
-        category="apprentissage"
-        isPaywall="false"
-        pertinence="moyenne"
-        raison="Pratiques d'apprentissage et transmission des savoirs techniques dans les communautés"/>
-
-      <outline type="rss"
-        text="The Sunday Wisdom"
-        title="The Sunday Wisdom"
-        xmlUrl="https://coffeeandjunk.substack.com/feed"
-        htmlUrl="https://coffeeandjunk.substack.com"
-        category="apprentissage-societe"
-        isPaywall="false"
-        pertinence="moyenne"
-        raison="Réflexions hebdomadaires sur les comportements, habitudes et transformations cognitives"/>
-
-    </outline>
-
-    <!-- ============================================================ -->
-    <!-- 7. MARKETING, CONSOMMATION ET COMPORTEMENTS (10 sources)     -->
+    <!-- 9. CONSOMMATION ET COMPORTEMENTS CULTURELS (7 sources)       -->
     <!-- Pertinence: Rituels de consommation = données anthropologiques-->
     <!-- ============================================================ -->
     <outline text="Consommation et Comportements Culturels" title="Consommation et Comportements Culturels">
 
       <outline type="rss"
-        text="Seth Godin's Blog"
+        text="Seth Godin"
         title="Seth Godin"
         xmlUrl="http://sethgodin.typepad.com/seths_blog/atom.xml"
         htmlUrl="https://seths.blog"
@@ -701,56 +727,6 @@
         isPaywall="false"
         pertinence="élevée"
         raison="Analyse des tribus, comportements de masse et mutations culturelles de la consommation"/>
-
-      <outline type="rss"
-        text="Social Media Examiner"
-        title="Social Media Examiner"
-        xmlUrl="http://www.socialmediaexaminer.com/feed/"
-        htmlUrl="https://www.socialmediaexaminer.com"
-        category="consommation-numerique"
-        isPaywall="false"
-        pertinence="élevée"
-        raison="Rituels numériques, comportements sur les réseaux sociaux et nouvelles formes de socialisation"/>
-
-      <outline type="rss"
-        text="Content Marketing Institute"
-        title="Content Marketing Institute"
-        xmlUrl="http://feeds.feedburner.com/cmi-content-marketing"
-        htmlUrl="https://contentmarketinginstitute.com"
-        category="consommation"
-        isPaywall="false"
-        pertinence="moyenne"
-        raison="Évolution des comportements de consommation d'information et de contenu"/>
-
-      <outline type="rss"
-        text="Convince and Convert"
-        title="Convince and Convert"
-        xmlUrl="http://www.convinceandconvert.com/feed/"
-        htmlUrl="https://www.convinceandconvert.com"
-        category="consommation"
-        isPaywall="false"
-        pertinence="moyenne"
-        raison="Comportements des consommateurs numériques et transformations des pratiques d'achat"/>
-
-      <outline type="rss"
-        text="Product Hunt"
-        title="Product Hunt"
-        xmlUrl="http://www.producthunt.com/feed"
-        htmlUrl="https://www.producthunt.com"
-        category="consommation-innovation"
-        isPaywall="false"
-        pertinence="élevée"
-        raison="Signaux faibles sur les nouvelles pratiques et usages émergents - thermomètre des tendances"/>
-
-      <outline type="rss"
-        text="Andrew Chen"
-        title="Andrew Chen"
-        xmlUrl="http://andrewchen.co/feed/"
-        htmlUrl="https://andrewchen.co"
-        category="consommation-comportement"
-        isPaywall="false"
-        pertinence="élevée"
-        raison="Analyse des comportements utilisateurs, habitudes numériques et mécaniques virales sociales"/>
 
       <outline type="rss"
         text="Benedict Evans"
@@ -763,16 +739,6 @@
         raison="Analyse macro des transformations technologiques et leurs impacts sur les comportements de masse"/>
 
       <outline type="rss"
-        text="VentureBeat"
-        title="VentureBeat"
-        xmlUrl="http://venturebeat.com/feed/"
-        htmlUrl="https://venturebeat.com"
-        category="tech-societe"
-        isPaywall="false"
-        pertinence="moyenne"
-        raison="Tendances tech avec angle impact social et transformation des usages"/>
-
-      <outline type="rss"
         text="The Verge"
         title="The Verge"
         xmlUrl="http://www.theverge.com/rss/full.xml"
@@ -783,42 +749,62 @@
         raison="Culture numérique, impact des technologies sur les modes de vie et rituels contemporains"/>
 
       <outline type="rss"
-        text="Hacker News"
-        title="Hacker News"
-        xmlUrl="http://news.ycombinator.com/rss"
-        htmlUrl="https://news.ycombinator.com"
-        category="communaute-tech"
+        text="Product Hunt"
+        title="Product Hunt"
+        xmlUrl="http://www.producthunt.com/feed"
+        htmlUrl="https://www.producthunt.com"
+        category="consommation-innovation"
         isPaywall="false"
         pertinence="élevée"
-        raison="Communauté mondiale - signaux faibles émergents, débats sur technologie et société"/>
+        raison="Signaux faibles sur les nouvelles pratiques et usages émergents — thermomètre des tendances"/>
+
+      <outline type="rss"
+        text="Andrew Chen"
+        title="Andrew Chen"
+        xmlUrl="http://andrewchen.co/feed/"
+        htmlUrl="https://andrewchen.co"
+        category="consommation-comportement"
+        isPaywall="false"
+        pertinence="élevée"
+        raison="Analyse des comportements utilisateurs, habitudes numériques et mécaniques virales sociales"/>
+
+      <outline type="rss"
+        text="Social Media Examiner"
+        title="Social Media Examiner"
+        xmlUrl="http://www.socialmediaexaminer.com/feed/"
+        htmlUrl="https://www.socialmediaexaminer.com"
+        category="consommation-numerique"
+        isPaywall="false"
+        pertinence="élevée"
+        raison="Rituels numériques, comportements sur les réseaux sociaux et nouvelles formes de socialisation"/>
+
+      <outline type="rss"
+        text="VentureBeat"
+        title="VentureBeat"
+        xmlUrl="http://venturebeat.com/feed/"
+        htmlUrl="https://venturebeat.com"
+        category="tech-societe"
+        isPaywall="false"
+        pertinence="moyenne"
+        raison="Tendances tech avec angle impact social et transformation des usages"/>
 
     </outline>
 
     <!-- ============================================================ -->
-    <!-- 8. LEADERSHIP, STRATÉGIE ET CULTURE ORGANISATIONNELLE (8 sources) -->
-    <!-- Pertinence: Anthropologie des organisations                  -->
+    <!-- 10. SIGNAUX ÉMERGENTS ET SOURCES TRANSVERSALES (8 sources)   -->
+    <!-- Pertinence: Couverture transversale et signaux faibles       -->
     <!-- ============================================================ -->
-    <outline text="Leadership et Culture Organisationnelle" title="Leadership et Culture Organisationnelle">
+    <outline text="Signaux Émergents et Sources Transversales" title="Signaux Émergents et Sources Transversales">
 
       <outline type="rss"
-        text="Both Sides of the Table"
-        title="Both Sides of the Table"
-        xmlUrl="https://bothsidesofthetable.com/feed"
-        htmlUrl="https://bothsidesofthetable.com"
-        category="leadership"
+        text="Fast Company Design"
+        title="Fast Company Design"
+        xmlUrl="http://www.fastcodesign.com/rss.xml"
+        htmlUrl="https://www.fastcompany.com/design"
+        category="design-societe"
         isPaywall="false"
-        pertinence="moyenne"
-        raison="Culture d'entreprise, dynamiques de pouvoir et comportements organisationnels"/>
-
-      <outline type="rss"
-        text="Guy Kawasaki"
-        title="Guy Kawasaki"
-        xmlUrl="http://guykawasaki.com/feed/"
-        htmlUrl="https://guykawasaki.com"
-        category="leadership"
-        isPaywall="false"
-        pertinence="moyenne"
-        raison="Évangélisme, tribus et dynamiques communautaires dans les organisations"/>
+        pertinence="élevée"
+        raison="Design social, innovation inclusive et transformation des modes de vie"/>
 
       <outline type="rss"
         text="Sam Altman"
@@ -831,150 +817,14 @@
         raison="Réflexions sur l'avenir humain, IA et transformations sociétales profondes"/>
 
       <outline type="rss"
-        text="The Black Box of Product Management"
-        title="Black Box Product Management"
-        xmlUrl="https://medium.com/feed/the-black-box-of-product-management"
-        htmlUrl="https://medium.com/the-black-box-of-product-management"
-        category="management"
-        isPaywall="false"
-        pertinence="moyenne"
-        raison="Dynamiques d'équipes, cultures produit et comportements organisationnels"/>
-
-      <outline type="rss"
-        text="Stripe Blog"
-        title="Stripe Blog"
-        xmlUrl="https://stripe.com/blog/feed.rss"
-        htmlUrl="https://stripe.com/blog"
-        category="culture-tech"
-        isPaywall="false"
-        pertinence="moyenne"
-        raison="Culture organisationnelle exemplaire et réflexions sur la transformation du commerce"/>
-
-      <outline type="rss"
-        text="Shopify Engineering"
-        title="Shopify Engineering"
-        xmlUrl="https://shopifyengineering.myshopify.com/blogs/engineering.atom"
-        htmlUrl="https://shopify.engineering"
-        category="culture-tech"
-        isPaywall="false"
-        pertinence="moyenne"
-        raison="Culture d'entreprise tech canadienne, nouvelles pratiques de travail distribué"/>
-
-      <outline type="rss"
-        text="Airbnb Engineering"
-        title="Airbnb Engineering"
-        xmlUrl="https://medium.com/feed/airbnb-engineering"
-        htmlUrl="https://medium.com/airbnb-engineering"
-        category="culture-tech"
-        isPaywall="false"
-        pertinence="moyenne"
-        raison="Transformation culturelle du voyage et de l'hospitalité par la technologie"/>
-
-      <outline type="rss"
-        text="Uber Engineering"
-        title="Uber Engineering"
-        xmlUrl="https://eng.uber.com/feed/"
-        htmlUrl="https://eng.uber.com"
-        category="culture-mobilite"
-        isPaywall="false"
-        pertinence="moyenne"
-        raison="Transformation des comportements de mobilité urbaine et économie de plateforme"/>
-
-    </outline>
-
-    <!-- ============================================================ -->
-    <!-- 9. COMMUNAUTÉS ET RÉSEAUX SOCIAUX (8 sources)                -->
-    <!-- Pertinence: Nouvelles formes de tribalisme numérique         -->
-    <!-- ============================================================ -->
-    <outline text="Communautés et Réseaux Sociaux" title="Communautés et Réseaux Sociaux">
-
-      <outline type="rss"
-        text="Reddit - Anthropology"
-        title="Reddit Anthropology"
-        xmlUrl="https://www.reddit.com/r/anthropology/.rss"
-        htmlUrl="https://www.reddit.com/r/anthropology"
-        category="communaute-academique"
+        text="Instagram Engineering"
+        title="Instagram Engineering"
+        xmlUrl="https://instagram-engineering.com/feed"
+        htmlUrl="https://instagram-engineering.com"
+        category="reseaux-sociaux"
         isPaywall="false"
         pertinence="élevée"
-        raison="Communauté mondiale de discussion en anthropologie - signaux directs du terrain"/>
-
-      <outline type="rss"
-        text="Reddit - Sociology"
-        title="Reddit Sociology"
-        xmlUrl="https://www.reddit.com/r/sociology/.rss"
-        htmlUrl="https://www.reddit.com/r/sociology"
-        category="communaute-academique"
-        isPaywall="false"
-        pertinence="élevée"
-        raison="Discussions sociologiques mondiales, tendances émergentes et signaux faibles"/>
-
-      <outline type="rss"
-        text="Reddit - Futurology"
-        title="Reddit Futurology"
-        xmlUrl="https://www.reddit.com/r/Futurology/.rss"
-        htmlUrl="https://www.reddit.com/r/Futurology"
-        category="communaute-futur"
-        isPaywall="false"
-        pertinence="élevée"
-        raison="Signaux faibles sur les transformations sociales et comportementales émergentes"/>
-
-      <outline type="rss"
-        text="Hacker News - Show HN"
-        title="Hacker News Show HN"
-        xmlUrl="http://hnrss.org/show"
-        htmlUrl="https://news.ycombinator.com/show"
-        category="communaute-innovation"
-        isPaywall="false"
-        pertinence="élevée"
-        raison="Innovations émergentes créées par la communauté - signaux faibles sur les nouveaux usages"/>
-
-      <outline type="rss"
-        text="Hacker News - Launches"
-        title="Hacker News Launches"
-        xmlUrl="https://hnrss.org/launches"
-        htmlUrl="https://news.ycombinator.com"
-        category="communaute-innovation"
-        isPaywall="false"
-        pertinence="moyenne"
-        raison="Nouveaux produits et services reflétant les besoins émergents de la société"/>
-
-      <outline type="rss"
-        text="Slack Engineering"
-        title="Slack Engineering"
-        xmlUrl="https://slack.engineering/feed"
-        htmlUrl="https://slack.engineering"
-        category="communaute-travail"
-        isPaywall="false"
-        pertinence="moyenne"
-        raison="Évolution des outils de communication et nouveaux rituels de collaboration distante"/>
-
-      <outline type="rss"
-        text="The Cloudflare Blog"
-        title="Cloudflare Blog"
-        xmlUrl="https://blog.cloudflare.com/rss/"
-        htmlUrl="https://blog.cloudflare.com"
-        category="infrastructure-societe"
-        isPaywall="false"
-        pertinence="moyenne"
-        raison="Infrastructure internet et enjeux sociaux de la souveraineté numérique"/>
-
-      <outline type="rss"
-        text="Martin Kleppmann"
-        title="Martin Kleppmann"
-        xmlUrl="https://feeds.feedburner.com/martinkl?format=xml"
-        htmlUrl="https://martin.kleppmann.com"
-        category="tech-societe"
-        isPaywall="false"
-        pertinence="moyenne"
-        raison="Réflexions sur les systèmes distribués et la collaboration humaine dans les systèmes complexes"/>
-
-    </outline>
-
-    <!-- ============================================================ -->
-    <!-- 10. SOURCES ADDITIONNELLES HAUTE VALEUR (11 sources)         -->
-    <!-- Pertinence: Couverture transversale et signaux émergents     -->
-    <!-- ============================================================ -->
-    <outline text="Sources Transversales et Signaux Émergents" title="Sources Transversales et Signaux Émergents">
+        raison="Comportements visuels, partage d'identité et rituels de présentation de soi en ligne"/>
 
       <outline type="rss"
         text="Nature"
@@ -997,26 +847,6 @@
         raison="Transformations technologiques avec impact direct sur les comportements sociaux"/>
 
       <outline type="rss"
-        text="TechCrunch - Startups"
-        title="TechCrunch Startups"
-        xmlUrl="https://techcrunch.com/startups/feed/"
-        htmlUrl="https://techcrunch.com"
-        category="innovation-societe"
-        isPaywall="false"
-        pertinence="moyenne"
-        raison="Nouvelles solutions aux problèmes sociaux - thermomètre des besoins émergents"/>
-
-      <outline type="rss"
-        text="Fast Company - Design"
-        title="Fast Company Design"
-        xmlUrl="http://www.fastcodesign.com/rss.xml"
-        htmlUrl="https://www.fastcompany.com/design"
-        category="design-societe"
-        isPaywall="false"
-        pertinence="élevée"
-        raison="Design social, innovation inclusive et transformation des modes de vie"/>
-
-      <outline type="rss"
         text="Engadget"
         title="Engadget"
         xmlUrl="http://www.engadget.com/rss-full.xml"
@@ -1027,67 +857,26 @@
         raison="Gadgets et technologies qui reconfigurent les pratiques et rituels quotidiens"/>
 
       <outline type="rss"
-        text="Sachin Rekhi Blog"
-        title="Sachin Rekhi Blog"
-        xmlUrl="http://feeds.feedburner.com/sachinrekhiblog"
-        htmlUrl="https://www.sachinrekhi.com"
-        category="produit-comportement"
-        isPaywall="false"
-        pertinence="moyenne"
-        raison="Psychologie du produit et design comportemental centré sur l'humain"/>
-
-      <outline type="rss"
-        text="Josh Comeau"
-        title="Josh Comeau"
-        xmlUrl="https://joshwcomeau.com/rss.xml"
-        htmlUrl="https://www.joshwcomeau.com"
-        category="apprentissage-culture"
-        isPaywall="false"
-        pertinence="moyenne"
-        raison="Culture d'apprentissage numérique et transmission de savoirs dans les communautés tech"/>
-
-      <outline type="rss"
-        text="Dropbox Tech"
-        title="Dropbox Tech"
-        xmlUrl="https://dropbox.tech/feed"
-        htmlUrl="https://dropbox.tech"
-        category="travail-collaboratif"
-        isPaywall="false"
-        pertinence="moyenne"
-        raison="Comportements de collaboration et partage de l'information dans les organisations"/>
-
-      <outline type="rss"
-        text="Instagram Engineering"
-        title="Instagram Engineering"
-        xmlUrl="https://instagram-engineering.com/feed"
-        htmlUrl="https://instagram-engineering.com"
-        category="reseaux-sociaux"
+        text="Commonplace Commoncog"
+        title="Commonplace Commoncog"
+        xmlUrl="https://commoncog.com/blog/rss/"
+        htmlUrl="https://commoncog.com"
+        category="apprentissage"
         isPaywall="false"
         pertinence="élevée"
-        raison="Comportements visuels, partage d'identité et rituels de présentation de soi en ligne"/>
+        raison="Anthropologie de l'apprentissage, transmission du savoir et cognition experte"/>
 
       <outline type="rss"
-        text="Distill - ML Research"
-        title="Distill"
-        xmlUrl="http://distill.pub/rss.xml"
-        htmlUrl="https://distill.pub"
-        category="science-cognition"
+        text="Shopify Engineering"
+        title="Shopify Engineering"
+        xmlUrl="https://shopifyengineering.myshopify.com/blogs/engineering.atom"
+        htmlUrl="https://shopify.engineering"
+        category="culture-tech"
         isPaywall="false"
         pertinence="moyenne"
-        raison="Visualisation et compréhension des modèles cognitifs artificiels"/>
-
-      <outline type="rss"
-        text="Forbes - Entrepreneurs"
-        title="Forbes Entrepreneurs"
-        xmlUrl="http://www.forbes.com/entrepreneurs/index.xml"
-        htmlUrl="https://www.forbes.com/entrepreneurs"
-        category="innovation-culture"
-        isPaywall="false"
-        pertinence="moyenne"
-        raison="Nouvelles cultures entrepreneuriales et transformations des modes de travail et de vie"/>
+        raison="Culture d'entreprise tech canadienne, nouvelles pratiques de travail distribué"/>
 
     </outline>
 
   </body>
 </opml>
-```
