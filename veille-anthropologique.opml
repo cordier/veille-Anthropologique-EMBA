@@ -17,8 +17,8 @@
       <outline type="rss"
         text="Mila - Institut québécois d'IA"
         title="Mila Québec"
-        xmlUrl="https://news.google.com/rss/search?q=Mila+intelligence+artificielle+Montr%C3%A9al&hl=fr-CA&gl=CA&ceid=CA:fr"
-        htmlUrl="https://news.google.com"
+        xmlUrl="https://mila.quebec/en/feed/"
+        htmlUrl="https://mila.quebec"
         category="ethique_ia"
         isPaywall="false"
         pertinence="élevée"
@@ -101,6 +101,38 @@
         isPaywall="false"
         pertinence="élevée"
         raison="Magazine québécois de référence — analyses société, économie coopérative, transformations sociales au Québec"/>
+
+      <outline type="rss"
+        text="IICADD — HEC Montréal"
+        title="IICADD HEC"
+        xmlUrl="https://iicadd.hec.ca/feed"
+        htmlUrl="https://iicadd.hec.ca"
+        category="cooperatif"
+        isPaywall="false"
+        pertinence="élevée"
+        raison="Institut d'innovation et de conseil en affaires durables de HEC — recherche sur gouvernance et modèles d'affaires responsables"/>
+
+      <outline type="rss"
+        text="ICA — Alliance Coopérative Internationale"
+        title="ICA Cooperative"
+        xmlUrl="https://www.ica.coop/feed"
+        htmlUrl="https://www.ica.coop"
+        category="cooperatif"
+        isPaywall="false"
+        pertinence="élevée"
+        raison="Organisation mondiale du mouvement coopératif — standards, tendances et enjeux globaux du modèle coopératif"
+        note="Si le flux natif est indisponible, générer via RSS.app à partir de https://www.ica.coop/en/media/news"/>
+
+      <outline type="rss"
+        text="IRECUS — Université de Sherbrooke"
+        title="IRECUS"
+        xmlUrl="https://news.google.com/rss/search?q=IRECUS+coop%C3%A9ratives+recherche+Sherbrooke&hl=fr&gl=CA&ceid=CA:fr"
+        htmlUrl="https://www.irecus.org"
+        category="cooperatif"
+        isPaywall="false"
+        pertinence="élevée"
+        raison="Institut de recherche et d'éducation pour les coopératives — via Google News (site Wix sans RSS natif)"
+        note="Site Wix — pas de RSS natif. Flux Google News utilisé en remplacement. Alternative: alerte Google sur site:irecus.org"/>
 
     </outline>
 
@@ -875,6 +907,56 @@
         isPaywall="false"
         pertinence="moyenne"
         raison="Culture d'entreprise tech canadienne, nouvelles pratiques de travail distribué"/>
+
+    </outline>
+
+    <!-- ============================================================ -->
+    <!-- 11. SOURCES ACADÉMIQUES ET THINK TANKS (NOUVEAU - 5 sources) -->
+    <!-- Pertinence: Recherche de fond et signaux émergents           -->
+    <!-- ============================================================ -->
+    <outline text="Sources Académiques et Think Tanks" title="Sources Académiques et Think Tanks">
+
+      <outline type="rss"
+        text="ThinkTankCRAPS"
+        title="ThinkTankCRAPS"
+        xmlUrl="https://www.thinktankcraps.fr/feed"
+        htmlUrl="https://www.thinktankcraps.fr"
+        category="anthropologie"
+        isPaywall="false"
+        pertinence="élevée"
+        raison="Think tank sur les transformations sociales et organisationnelles — analyses anthropologiques du travail et des organisations"/>
+
+      <outline type="rss"
+        text="Hypothèses — Sciences Humaines et Sociales"
+        title="Hypothèses SHS"
+        xmlUrl="https://hypotheses.org/feed"
+        htmlUrl="https://hypotheses.org"
+        category="anthropologie"
+        isPaywall="false"
+        pertinence="élevée"
+        raison="Plateforme de carnets de recherche académiques francophones — ajouter /feed à l'URL de chaque carnet thématique d'intérêt"/>
+
+      <outline type="rss"
+        text="Cairn.info — Alertes (via Blogtrottr)"
+        title="Cairn Sciences Humaines"
+        xmlUrl="https://www.cairn.info"
+        htmlUrl="https://www.cairn.info"
+        category="anthropologie"
+        isPaywall="true"
+        pertinence="élevée"
+        raison="Revues académiques francophones en sciences humaines — configurer alertes email Cairn puis convertir via Blogtrottr (blogtrottr.com) en flux RSS Feedly"
+        note="Pas de RSS public natif — workflow: 1) créer alerte Cairn par revue, 2) convertir email en RSS avec Blogtrottr"/>
+
+      <outline type="rss"
+        text="FasterCapital — Innovation et entrepreneuriat"
+        title="FasterCapital"
+        xmlUrl="https://fastercapital.com/feed"
+        htmlUrl="https://fastercapital.com"
+        category="signaux"
+        isPaywall="false"
+        pertinence="moyenne"
+        raison="Contenus sur l'innovation et les modèles d'affaires émergents — signaux sur les nouvelles formes organisationnelles"
+        note="Si flux natif indisponible, générer via RSS.app à partir de https://fastercapital.com/content"/>
 
     </outline>
 
