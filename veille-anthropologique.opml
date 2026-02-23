@@ -2,7 +2,7 @@
 <opml version="2.0">
   <head>
     <title>Veille Anthropologique - EMBA UQAM</title>
-    <dateCreated>2026-02-21</dateCreated>
+    <dateCreated>2026-02-23</dateCreated>
     <ownerName>Frederic - Desjardins / EMBA UQAM</ownerName>
     <docs>Sources sélectionnées pour la veille anthropologique - transformations sociales, IA et société, modèle coopératif québécois, comportements humains et numérique</docs>
   </head>
@@ -115,13 +115,13 @@
       <outline type="rss"
         text="ICA — Alliance Coopérative Internationale"
         title="ICA Cooperative"
-        xmlUrl="https://www.ica.coop/feed"
+        xmlUrl="https://rss.app/feeds/svwN4zPy2fqEZ3Wp.xml"
         htmlUrl="https://www.ica.coop"
         category="cooperatif"
         isPaywall="false"
         pertinence="élevée"
         raison="Organisation mondiale du mouvement coopératif — standards, tendances et enjeux globaux du modèle coopératif"
-        note="Si le flux natif est indisponible, générer via RSS.app à partir de https://www.ica.coop/en/media/news"/>
+        note="Flux RSS.app généré depuis https://www.ica.coop/en/media/news — validé"/>
 
       <outline type="rss"
         text="IRECUS — Université de Sherbrooke"
@@ -936,27 +936,304 @@
         pertinence="élevée"
         raison="Plateforme de carnets de recherche académiques francophones — ajouter /feed à l'URL de chaque carnet thématique d'intérêt"/>
 
+      <!-- Cairn.info — accès via compte institutionnel UQAM -->
+      <!-- Flux par discipline — proxy UQAM validé -->
+
       <outline type="rss"
-        text="Cairn.info — Alertes (via Blogtrottr)"
-        title="Cairn Sciences Humaines"
-        xmlUrl="https://www.cairn.info"
-        htmlUrl="https://www.cairn.info"
+        text="Cairn — Anthropologie"
+        title="Cairn Anthropologie"
+        xmlUrl="https://shs.cairn.info/rss/discipline/159/all?lang=fr"
+        htmlUrl="https://shs.cairn.info"
         category="anthropologie"
-        isPaywall="true"
+        isPaywall="false"
         pertinence="élevée"
-        raison="Revues académiques francophones en sciences humaines — configurer alertes email Cairn puis convertir via Blogtrottr (blogtrottr.com) en flux RSS Feedly"
-        note="Pas de RSS public natif — workflow: 1) créer alerte Cairn par revue, 2) convertir email en RSS avec Blogtrottr"/>
+        raison="Flux disciplinaire Cairn — toutes publications en anthropologie sociale, culturelle et historique"/>
+
+      <outline type="rss"
+        text="Cairn — Sociologie"
+        title="Cairn Sociologie"
+        xmlUrl="https://shs.cairn.info/rss/discipline/11/all?lang=fr"
+        htmlUrl="https://shs.cairn.info"
+        category="social"
+        isPaywall="false"
+        pertinence="élevée"
+        raison="Flux disciplinaire Cairn — comportements collectifs, institutions, transformations sociales"/>
+
+      <outline type="rss"
+        text="Cairn — Psychologie"
+        title="Cairn Psychologie"
+        xmlUrl="https://shs.cairn.info/rss/discipline/7/all?lang=fr"
+        htmlUrl="https://shs.cairn.info"
+        category="psychologie"
+        isPaywall="false"
+        pertinence="élevée"
+        raison="Flux disciplinaire Cairn — comportements humains, cognition, psychologie sociale et organisationnelle"/>
+
+      <outline type="rss"
+        text="Cairn — Info et Communication"
+        title="Cairn Info Communication"
+        xmlUrl="https://shs.cairn.info/rss/discipline/9/all?lang=fr"
+        htmlUrl="https://shs.cairn.info"
+        category="numerique"
+        isPaywall="false"
+        pertinence="élevée"
+        raison="Flux disciplinaire Cairn — communication numérique, médias, usages technologiques et société"/>
+
+      <outline type="rss"
+        text="Cairn — Gestion"
+        title="Cairn Gestion"
+        xmlUrl="https://shs.cairn.info/rss/discipline/160/all?lang=fr"
+        htmlUrl="https://shs.cairn.info"
+        category="travail"
+        isPaywall="false"
+        pertinence="élevée"
+        raison="Flux disciplinaire Cairn — management, organisations, stratégie et comportements organisationnels"/>
+
+      <outline type="rss"
+        text="Cairn — Travail Social"
+        title="Cairn Travail Social"
+        xmlUrl="https://shs.cairn.info/rss/discipline/162/all?lang=fr"
+        htmlUrl="https://shs.cairn.info"
+        category="social"
+        isPaywall="false"
+        pertinence="moyenne"
+        raison="Flux disciplinaire Cairn — intervention sociale, solidarité, économie sociale et coopérative"/>
 
       <outline type="rss"
         text="FasterCapital — Innovation et entrepreneuriat"
         title="FasterCapital"
-        xmlUrl="https://fastercapital.com/feed"
+        xmlUrl="https://rss.app/feeds/W5Tt2wug6D2io8fI.xml"
         htmlUrl="https://fastercapital.com"
         category="signaux"
         isPaywall="false"
         pertinence="moyenne"
         raison="Contenus sur l'innovation et les modèles d'affaires émergents — signaux sur les nouvelles formes organisationnelles"
-        note="Si flux natif indisponible, générer via RSS.app à partir de https://fastercapital.com/content"/>
+        note="Flux RSS.app validé — généré depuis https://fastercapital.com/content"/>
+
+    </outline>
+
+
+    <!-- ============================================================ -->
+    <!-- 8. PRESSE FRANÇAISE — QUOTIDIENS ET MÉDIAS (5 sources)       -->
+    <!-- Pertinence: HAUTE — couverture sociétale France              -->
+    <!-- ============================================================ -->
+    <outline text="Presse française — Quotidiens et médias" title="Presse française — Quotidiens et médias">
+
+      <outline type="rss"
+        text="Le Monde Diplomatique"
+        title="Le Monde Diplomatique"
+        xmlUrl="https://www.monde-diplomatique.fr/backend"
+        htmlUrl="https://www.monde-diplomatique.fr"
+        category="presse_fr"
+        isPaywall="false"
+        pertinence="élevée"
+        raison="Référence française pour l'analyse critique des transformations sociales, économiques et politiques mondiales — perspective anti-utilitariste proche du MAUSS"/>
+
+      <outline type="rss"
+        text="Mediapart — Tous les articles"
+        title="Mediapart"
+        xmlUrl="https://www.mediapart.fr/articles/feed"
+        htmlUrl="https://www.mediapart.fr"
+        category="presse_fr"
+        isPaywall="false"
+        pertinence="élevée"
+        raison="Presse indépendante française — enquêtes sur les transformations sociales, travail, démocratie et société numérique"/>
+
+      <outline type="rss"
+        text="Libération — Société"
+        title="Libération Société"
+        xmlUrl="https://www.liberation.fr/arc/outboundfeeds/rss-all/category/societe/?outputType=xml"
+        htmlUrl="https://www.liberation.fr"
+        category="presse_fr"
+        isPaywall="false"
+        pertinence="élevée"
+        raison="Couverture sociétale France — mutations du travail, comportements collectifs, transformations des modes de vie"/>
+
+      <outline type="rss"
+        text="Libération — Sciences"
+        title="Libération Sciences"
+        xmlUrl="https://www.liberation.fr/arc/outboundfeeds/rss-all/category/sciences/?outputType=xml"
+        htmlUrl="https://www.liberation.fr"
+        category="presse_fr"
+        isPaywall="false"
+        pertinence="moyenne"
+        raison="Sciences et société en France — impacts des technologies sur les comportements humains"/>
+
+      <outline type="rss"
+        text="Reporterre — Actualité écologie et société"
+        title="Reporterre"
+        xmlUrl="https://reporterre.net/spip.php?page=backend-simple"
+        htmlUrl="https://reporterre.net"
+        category="presse_fr"
+        isPaywall="false"
+        pertinence="élevée"
+        raison="Média indépendant dédié à l'écologie et aux alternatives sociales — transitions de modes de vie, pratiques collectives, économie du soin"/>
+
+    </outline>
+
+    <!-- ============================================================ -->
+    <!-- 9. SOCIOLOGIE ET SCIENCES HUMAINES FRANÇAISES (4 sources)    -->
+    <!-- Pertinence: CRITIQUE — ancrage disciplinaire anthropologique -->
+    <!-- ============================================================ -->
+    <outline text="Sociologie et sciences humaines — France" title="Sociologie et sciences humaines — France">
+
+      <outline type="rss"
+        text="The Conversation France — Société"
+        title="The Conversation FR — Société"
+        xmlUrl="https://theconversation.com/fr/society.atom"
+        htmlUrl="https://theconversation.com/fr"
+        category="sociologie_fr"
+        isPaywall="false"
+        pertinence="élevée"
+        raison="Articles académiques vulgarisés sur la société française — chercheurs universitaires francophones, sociologie des usages, mutations culturelles"/>
+
+      <outline type="rss"
+        text="The Conversation France — Sciences et Technologie"
+        title="The Conversation FR — Sciences &amp; Tech"
+        xmlUrl="https://theconversation.com/fr/technology.atom"
+        htmlUrl="https://theconversation.com/fr"
+        category="sociologie_fr"
+        isPaywall="false"
+        pertinence="élevée"
+        raison="Analyses académiques sur l'IA et les transformations numériques — perspective SHS francophone sur les impacts sociétaux de la technologie"/>
+
+      <outline type="rss"
+        text="CNRS Le journal — Toute l'actualité"
+        title="CNRS Le journal"
+        xmlUrl="https://lejournal.cnrs.fr/rss"
+        htmlUrl="https://lejournal.cnrs.fr"
+        category="sociologie_fr"
+        isPaywall="false"
+        pertinence="élevée"
+        raison="Journal scientifique du CNRS — recherches en sociologie, anthropologie, psychologie sociale et sciences cognitives avec rigueur académique"/>
+
+      <outline type="rss"
+        text="Alternatives Économiques — Tous les articles"
+        title="Alternatives Économiques"
+        xmlUrl="https://www.alternatives-economiques.fr/feed"
+        htmlUrl="https://www.alternatives-economiques.fr"
+        category="sociologie_fr"
+        isPaywall="false"
+        pertinence="élevée"
+        raison="Magazine coopératif français spécialisé ESS — économie sociale, coopératives, mutations du travail, données sociales — lien fort avec les valeurs coopératives Desjardins"
+        note="Vérifier accessibilité flux — magazine en SCIC donc sensible à la question coopérative"/>
+
+    </outline>
+
+    <!-- ============================================================ -->
+    <!-- 10. ESPRIT MUTUALISTE ET ÉCONOMIE SOCIALE — FRANCE (5 src)   -->
+    <!-- Pertinence: CRITIQUE — équivalent français du modèle coop QC -->
+    <!-- ============================================================ -->
+    <outline text="Esprit mutualiste et ESS — France" title="Esprit mutualiste et ESS — France">
+
+      <outline type="rss"
+        text="RECMA — Revue internationale de l'économie sociale"
+        title="RECMA — Économie sociale"
+        xmlUrl="https://www.recma.org/rss.xml"
+        htmlUrl="https://www.recma.org"
+        category="mutualisme_fr"
+        isPaywall="false"
+        pertinence="élevée"
+        raison="Revue de référence sur les coopératives, mutuelles et associations — fondée par Charles Gide 1921, équivalent académique français de IRECUS Québec — couvrant mutualisme, gouvernance ESS et économie solidaire"/>
+
+      <outline type="rss"
+        text="OpenEdition — Interventions économiques (ESS)"
+        title="Interventions économiques"
+        xmlUrl="https://journals.openedition.org/interventionseconomiques/rss"
+        htmlUrl="https://journals.openedition.org/interventionseconomiques"
+        category="mutualisme_fr"
+        isPaywall="false"
+        pertinence="élevée"
+        raison="Revue québéco-française en libre accès — économie sociale, entreprises coopératives, politiques publiques ESS — pont direct Québec-France"/>
+
+      <outline type="rss"
+        text="Journal du MAUSS — Mouvement anti-utilitariste"
+        title="Revue du MAUSS"
+        xmlUrl="http://journaldumauss.net/?feed=rss2"
+        htmlUrl="http://journaldumauss.net"
+        category="mutualisme_fr"
+        isPaywall="false"
+        pertinence="élevée"
+        raison="Mouvement intellectuel français fondé sur la théorie du don (Marcel Mauss) — critique de l'utilitarisme marchand, réciprocité, solidarité — cadre conceptuel très proche des valeurs mutuelles et coopératives"/>
+
+      <outline type="rss"
+        text="ESS France — Actualités du secteur"
+        title="ESS France"
+        xmlUrl="https://www.ess-france.org/feed"
+        htmlUrl="https://www.ess-france.org"
+        category="mutualisme_fr"
+        isPaywall="false"
+        pertinence="élevée"
+        raison="Chambre française de l'ESS — actualités institutionnelles coopératives, mutuelles et associations — équivalent du CQCM au Québec"
+        note="Vérifier accessibilité flux"/>
+
+      <outline type="rss"
+        text="CoopFR — Coopératives de France"
+        title="Coopératives de France"
+        xmlUrl="https://www.entreprises.coop/feed"
+        htmlUrl="https://www.entreprises.coop"
+        category="mutualisme_fr"
+        isPaywall="false"
+        pertinence="élevée"
+        raison="Fédération nationale des coopératives françaises — modèles de gouvernance, innovations coopératives, transformation numérique des coops — miroir des enjeux Desjardins en France"/>
+
+    </outline>
+
+    <!-- ============================================================ -->
+    <!-- 11. INTELLIGENCE ARTIFICIELLE — FRANCE ET FRANCOPHONIE (5)   -->
+    <!-- Pertinence: HAUTE — IA société et anthropologie numérique    -->
+    <!-- ============================================================ -->
+    <outline text="Intelligence artificielle — France et francophonie" title="Intelligence artificielle — France et francophonie">
+
+      <outline type="rss"
+        text="Binaire — Blog IA et société (Le Monde)"
+        title="Binaire — Le Monde"
+        xmlUrl="https://binaire.blog.lemonde.fr/feed/"
+        htmlUrl="https://binaire.blog.lemonde.fr"
+        category="ia_fr"
+        isPaywall="false"
+        pertinence="élevée"
+        raison="Blog scientifique hébergé Le Monde — IA, algorithmes et société par des chercheurs français — perspective critique et pédagogique sur l'anthropologie numérique"/>
+
+      <outline type="rss"
+        text="L'Usine Digitale — Transformation numérique"
+        title="L'Usine Digitale"
+        xmlUrl="https://www.usine-digitale.fr/rss"
+        htmlUrl="https://www.usine-digitale.fr"
+        category="ia_fr"
+        isPaywall="false"
+        pertinence="élevée"
+        raison="Média spécialisé transformation numérique des entreprises — IA en milieu de travail, automatisation, impacts sur les organisations et les métiers"/>
+
+      <outline type="rss"
+        text="The Conversation France — Économie"
+        title="The Conversation FR — Économie"
+        xmlUrl="https://theconversation.com/fr/economy.atom"
+        htmlUrl="https://theconversation.com/fr"
+        category="ia_fr"
+        isPaywall="false"
+        pertinence="élevée"
+        raison="Analyses académiques sur les mutations économiques françaises — impact IA sur le travail, modèles d'affaires coopératifs, économie comportementale"/>
+
+      <outline type="rss"
+        text="FrenchWeb — Startups et innovation France"
+        title="FrenchWeb"
+        xmlUrl="https://www.frenchweb.fr/feed"
+        htmlUrl="https://www.frenchweb.fr"
+        category="ia_fr"
+        isPaywall="false"
+        pertinence="moyenne"
+        raison="Écosystème numérique français — signaux d'innovation en IA, nouvelles formes organisationnelles, startups à impact social"/>
+
+      <outline type="rss"
+        text="Usine Nouvelle — Innovation et industrie"
+        title="Usine Nouvelle"
+        xmlUrl="https://www.usinenouvelle.com/rss/all.xml"
+        htmlUrl="https://www.usinenouvelle.com"
+        category="ia_fr"
+        isPaywall="false"
+        pertinence="moyenne"
+        raison="Revue industrielle française — transformation numérique, IA appliquée, mutations du travail industriel — signaux sur les changements de pratiques"/>
 
     </outline>
 
