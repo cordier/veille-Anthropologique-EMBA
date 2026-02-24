@@ -1206,6 +1206,16 @@
         raison="Média spécialisé transformation numérique des entreprises — IA en milieu de travail, automatisation, impacts sur les organisations et les métiers"/>
 
       <outline type="rss"
+        text="Sloan MIT review management"
+        title="MIT"
+        xmlUrl="https://sloanreview.mit.edu/feed/"
+        htmlUrl="https://sloanreview.mit.edu/"
+        category="ia_US"
+        isPaywall="false"
+        pertinence="élevée"
+        raison="Média spécialisé transformation numérique des entreprises — IA en milieu de travail, automatisation, impacts sur les organisations et les métiers"/>
+
+      <outline type="rss"
         text="The Conversation France — Économie"
         title="The Conversation FR — Économie"
         xmlUrl="https://theconversation.com/fr/economy.atom"
